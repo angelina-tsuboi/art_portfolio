@@ -14,8 +14,8 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2021 Angelina Tsuboi"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "Hey, I'm Angelina Tsuboi. A professional programmer, 3D modeling newbie, and a beginning digital artist.",
+    "Join me on my journey to learn 3D modeling and digital art."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -45,6 +45,14 @@ googleAnalytics = ""
   name = "Home"
   url = "portfolio/"
   home = true
+
+  [[params.navlinks]]
+  name = "3D modeling"
+  url = "modeling/"
+
+  [[params.navlinks]]
+  name = "Digital Art"
+  url = "digital_art/"
 
   [[params.navlinks]]
   name = "About"
