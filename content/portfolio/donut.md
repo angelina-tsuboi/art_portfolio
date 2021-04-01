@@ -1,13 +1,13 @@
 +++
+image = "img/portfolio/gravity-paper.jpg"
 showonlyimage = false
+date = "2021-4-01T19:44:32+05:30"
+title = "The Donut"
 draft = false
-image = "img/portfolio/ipad-air-2.jpg"
-date = "2016-11-05T19:59:22+05:30"
-title = "Name of the work 8"
-weight = 8
+weight = 2
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+Everyone starts off Blender 3D Modeling with the donut. Check out my version.
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.

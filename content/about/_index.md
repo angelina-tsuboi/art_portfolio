@@ -12,7 +12,7 @@ Hello there! I'm Angelina. I am currently a full stack developer that is learnin
 * Digital Art
 * 3D modeling with Blender
 
-Please feel free to contact me if you want to give me feedback, general advice, or if you have any questions. As always keep learning 🚀 and growing 🌱.
+Please feel free to contact me if you want to give me feedback, general advice, or if you have any questions. As always keep on learning 🚀 and growing 🌱.
 
 
 
