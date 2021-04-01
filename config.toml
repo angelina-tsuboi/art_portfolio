@@ -47,14 +47,6 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "3D modeling"
-  url = "modeling/"
-
-  [[params.navlinks]]
-  name = "Digital Art"
-  url = "digital_art/"
-
-  [[params.navlinks]]
   name = "About"
   url = "about/"
 
