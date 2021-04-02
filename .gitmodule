@@ -1,0 +1,4 @@
+[submodule " public"]
+	path = "public"
+	# url = https://github.com/angelina-tsuboi/angelina-tsuboi.github.io.git
+	url = https://github.com/angelina-tsuboi/art_portfolio.git
