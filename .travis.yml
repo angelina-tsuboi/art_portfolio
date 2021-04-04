@@ -1,21 +1,14 @@
-language: go
-go:
-  - master # This uses automatically the latest version of go
-
+---
 install:
-  - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
 
 script:
-  - hugo # This commands builds your website on travis
+  - hugo
 
 deploy:
-  local_dir: public # Default static site output dir for Hugo
-  repo: angelina-tsuboi/angelina-tsuboi.github.io # This is the slug of the repo you want to deploy your site to
-  target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
-  email: angelina.t1832@gmail.com
-  name: "angelina-tsuboi"
-  on:
-    branch: master
+  - provider: script
+    script: ./deploy.sh
+    skip_cleanup: true
+    on:
+      branch: master
